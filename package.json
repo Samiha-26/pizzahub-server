@@ -1,0 +1,28 @@
+{
+  "name": "pizzahub-server",
+  "version": "1.0.0",
+  "description": "Artisanal Pizza Ordering & Delivery Platform API - Backend Service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "pizzahub",
+    "express",
+    "mongodb",
+    "stripe",
+    "better-auth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jose": "^6.0.8",
+    "mongodb": "^7.8.0",
+    "stripe": "^17.7.0"
+  }
+}
