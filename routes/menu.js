@@ -46,7 +46,7 @@ router.get('/api/menu/seed', async (req, res) => {
 router.get('/api/menu/specials', async (req, res) => {
   try {
     const specials = await menuCol
-      .find({ isFeatured: true, status: 'approved' })
+      .find({ isFeatured: true, status: { $in: ['approved', 'active'] } })
       .limit(6)
       .toArray();
 
@@ -60,7 +60,7 @@ router.get('/api/menu', async (req, res) => {
   try {
     const { search, category, crust, sort, page = 1, limit = 12 } = req.query;
 
-    const query = { status: 'approved' };
+    const query = { status: { $in: ['approved', 'active'] } };
 
     if (search && search.trim() !== '') {
       const regex = new RegExp(search.trim(), 'i');
