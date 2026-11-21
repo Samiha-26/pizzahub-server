@@ -16,6 +16,7 @@ let ordersCollection = null;
 let usersCollection = null;
 let reviewsCollection = null;
 let paymentsCollection = null;
+let notificationsCollection = null;
 
 export async function connectToMongoDB() {
   if (db) {
@@ -27,6 +28,7 @@ export async function connectToMongoDB() {
       usersCollection,
       reviewsCollection,
       paymentsCollection,
+      notificationsCollection,
     };
   }
 
@@ -39,6 +41,7 @@ export async function connectToMongoDB() {
     usersCollection = db.collection('user');
     reviewsCollection = db.collection('reviews');
     paymentsCollection = db.collection('payments');
+    notificationsCollection = db.collection('notifications');
 
     return {
       client,
@@ -48,6 +51,7 @@ export async function connectToMongoDB() {
       usersCollection,
       reviewsCollection,
       paymentsCollection,
+      notificationsCollection,
     };
   } catch (err) {
     console.error('MongoDB Connection Error:', err);
@@ -63,3 +67,4 @@ export const ordersCol = connection.ordersCollection;
 export const usersCol = connection.usersCollection;
 export const reviewsCol = connection.reviewsCollection;
 export const paymentsCol = connection.paymentsCollection;
+export const notificationsCol = connection.notificationsCollection;

@@ -8,6 +8,7 @@ import paymentsRouter from './routes/payments.js';
 import adminRouter from './routes/admin.js';
 import reviewsRouter from './routes/reviews.js';
 import invoicesRouter from './routes/invoices.js';
+import notificationsRouter from './routes/notifications.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -36,6 +37,7 @@ app.use(paymentsRouter);
 app.use(adminRouter);
 app.use(reviewsRouter);
 app.use(invoicesRouter);
+app.use(notificationsRouter);
 
 app.use((req, res) => {
   res.status(404).json({
