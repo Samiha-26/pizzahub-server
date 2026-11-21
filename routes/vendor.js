@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/api/vendor/stats/:email', async (req, res) => {
   try {
     const email = req.params.email.trim().toLowerCase();
-    const user = await usersCol.findOne({ email });
+    const user = await usersCol.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
 
     const subscriptionTier = user?.subscriptionTier || 'free';
     const itemLimit = subscriptionTier === 'premium' ? null : 3;
@@ -53,7 +53,7 @@ router.get('/api/vendor/stats/:email', async (req, res) => {
 router.get('/api/vendor/menu/:email', async (req, res) => {
   try {
     const email = req.params.email.trim().toLowerCase();
-    const user = await usersCol.findOne({ email });
+    const user = await usersCol.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
 
     const subscriptionTier = user?.subscriptionTier || 'free';
     const itemLimit = subscriptionTier === 'premium' ? null : 3;
@@ -107,7 +107,7 @@ router.post('/api/vendor/menu', async (req, res) => {
     }
 
     const email = vendorEmail.trim().toLowerCase();
-    const user = await usersCol.findOne({ email });
+    const user = await usersCol.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
     const subscriptionTier = user?.subscriptionTier || 'free';
 
     if (subscriptionTier !== 'premium') {

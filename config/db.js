@@ -36,7 +36,7 @@ export async function connectToMongoDB() {
     db = client.db(dbName);
     menuCollection = db.collection('menu');
     ordersCollection = db.collection('orders');
-    usersCollection = db.collection('users');
+    usersCollection = db.collection('user');
     reviewsCollection = db.collection('reviews');
     paymentsCollection = db.collection('payments');
 
