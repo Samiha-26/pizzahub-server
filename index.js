@@ -10,6 +10,7 @@ import reviewsRouter from './routes/reviews.js';
 import invoicesRouter from './routes/invoices.js';
 import notificationsRouter from './routes/notifications.js';
 import analyticsRouter from './routes/analytics.js';
+import profileRouter from './routes/profile.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -40,6 +41,7 @@ app.use(reviewsRouter);
 app.use(invoicesRouter);
 app.use(notificationsRouter);
 app.use(analyticsRouter);
+app.use(profileRouter);
 
 app.use((req, res) => {
   res.status(404).json({
