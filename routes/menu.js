@@ -5,6 +5,31 @@ import { initialPizzas } from '../seedData.js';
 
 const router = express.Router();
 
+router.get('/pizzas', async (req, res) => {
+  try {
+    const pizzas = await menuCol.find().toArray();
+    res.json(pizzas);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch pizzas', details: error.message });
+  }
+});
+
+router.get('/pizza/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    if (!ObjectId.isValid(id)) {
+      return res.status(400).json({ error: 'Invalid pizza ID format' });
+    }
+    const item = await menuCol.findOne({ _id: new ObjectId(id) });
+    if (!item) {
+      return res.status(404).json({ error: 'Pizza not found' });
+    }
+    res.json(item);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch pizza details', details: error.message });
+  }
+});
+
 router.get('/api/menu/seed', async (req, res) => {
   try {
     const count = await menuCol.countDocuments();
