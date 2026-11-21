@@ -33,7 +33,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-01T10:00:00.000Z",
     "updatedAt": "2026-11-01T10:00:00.000Z"
   },
@@ -70,7 +70,7 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
     "createdAt": "2026-11-02T11:00:00.000Z",
     "updatedAt": "2026-11-02T11:00:00.000Z"
   },
@@ -106,7 +106,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-03T12:00:00.000Z",
     "updatedAt": "2026-11-03T12:00:00.000Z"
   },
@@ -142,7 +142,7 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
+    "vendorAddress": "North Beach, San Francisco, CA",
     "createdAt": "2026-11-04T13:00:00.000Z",
     "updatedAt": "2026-11-04T13:00:00.000Z"
   },
@@ -178,7 +178,7 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
     "createdAt": "2026-11-05T14:00:00.000Z",
     "updatedAt": "2026-11-05T14:00:00.000Z"
   },
@@ -214,7 +214,7 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
+    "vendorAddress": "North Beach, San Francisco, CA",
     "createdAt": "2026-11-06T15:00:00.000Z",
     "updatedAt": "2026-11-06T15:00:00.000Z"
   },
@@ -250,7 +250,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-07T16:00:00.000Z",
     "updatedAt": "2026-11-07T16:00:00.000Z"
   },
@@ -285,7 +285,7 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
     "createdAt": "2026-11-08T17:00:00.000Z",
     "updatedAt": "2026-11-08T17:00:00.000Z"
   },
@@ -320,7 +320,7 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
+    "vendorAddress": "North Beach, San Francisco, CA",
     "createdAt": "2026-11-09T18:00:00.000Z",
     "updatedAt": "2026-11-09T18:00:00.000Z"
   },
@@ -355,7 +355,7 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
     "createdAt": "2026-11-10T19:00:00.000Z",
     "updatedAt": "2026-11-10T19:00:00.000Z"
   },
@@ -390,7 +390,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-11T20:00:00.000Z",
     "updatedAt": "2026-11-11T20:00:00.000Z"
   },
@@ -425,7 +425,7 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
+    "vendorAddress": "North Beach, San Francisco, CA",
     "createdAt": "2026-11-12T21:00:00.000Z",
     "updatedAt": "2026-11-12T21:00:00.000Z"
   },
@@ -460,7 +460,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-13T22:00:00.000Z",
     "updatedAt": "2026-11-13T22:00:00.000Z"
   },
@@ -495,7 +495,7 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
     "createdAt": "2026-11-14T23:00:00.000Z",
     "updatedAt": "2026-11-14T23:00:00.000Z"
   },
@@ -530,7 +530,7 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
+    "vendorAddress": "North Beach, San Francisco, CA",
     "createdAt": "2026-11-15T10:00:00.000Z",
     "updatedAt": "2026-11-15T10:00:00.000Z"
   },
@@ -565,7 +565,7 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
+    "vendorAddress": "Little Italy, Manhattan, NY",
     "createdAt": "2026-11-16T11:00:00.000Z",
     "updatedAt": "2026-11-16T11:00:00.000Z"
   }
