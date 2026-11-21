@@ -11,6 +11,7 @@ import invoicesRouter from './routes/invoices.js';
 import notificationsRouter from './routes/notifications.js';
 import analyticsRouter from './routes/analytics.js';
 import profileRouter from './routes/profile.js';
+import allergensRouter from './routes/allergens.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -42,6 +43,7 @@ app.use(invoicesRouter);
 app.use(notificationsRouter);
 app.use(analyticsRouter);
 app.use(profileRouter);
+app.use(allergensRouter);
 
 app.use((req, res) => {
   res.status(404).json({
