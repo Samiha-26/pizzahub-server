@@ -14,6 +14,7 @@ import profileRouter from './routes/profile.js';
 import allergensRouter from './routes/allergens.js';
 import couponsRouter from './routes/coupons.js';
 import deliveryZonesRouter from './routes/deliveryZones.js';
+import eventsRouter from './routes/events.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -48,6 +49,7 @@ app.use(profileRouter);
 app.use(allergensRouter);
 app.use(couponsRouter);
 app.use(deliveryZonesRouter);
+app.use(eventsRouter);
 
 app.use((req, res) => {
   res.status(404).json({
