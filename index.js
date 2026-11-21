@@ -3,6 +3,7 @@ import cors from 'cors';
 import 'dotenv/config';
 import menuRouter from './routes/menu.js';
 import ordersRouter from './routes/orders.js';
+import vendorRouter from './routes/vendor.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -25,6 +26,7 @@ app.get('/health', (req, res) => {
 
 app.use(menuRouter);
 app.use(ordersRouter);
+app.use(vendorRouter);
 
 app.use((req, res) => {
   res.status(404).json({
