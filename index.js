@@ -15,13 +15,18 @@ import allergensRouter from './routes/allergens.js';
 import couponsRouter from './routes/coupons.js';
 import deliveryZonesRouter from './routes/deliveryZones.js';
 import eventsRouter from './routes/events.js';
+import { securityHeaders, sanitizeInputs, rateLimiter } from './middleware/security.js';
+import { notFoundHandler, globalErrorHandler } from './middleware/errorHandler.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors());
+app.use(securityHeaders);
+app.use(rateLimiter({ windowMs: 60000, max: 150 }));
 app.use('/api/stripe/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
+app.use(sanitizeInputs);
 
 app.get('/', (req, res) => {
   res.send('PizzaHub server is running!');
@@ -51,20 +56,8 @@ app.use(couponsRouter);
 app.use(deliveryZonesRouter);
 app.use(eventsRouter);
 
-app.use((req, res) => {
-  res.status(404).json({
-    error: 'Not Found',
-    message: `Cannot ${req.method} ${req.originalUrl} on PizzaHub Server`,
-  });
-});
-
-app.use((err, req, res, next) => {
-  console.error('Server Internal Error:', err);
-  res.status(err.status || 500).json({
-    error: 'Internal Server Error',
-    message: err.message || 'An unexpected error occurred on PizzaHub Server',
-  });
-});
+app.use(notFoundHandler);
+app.use(globalErrorHandler);
 
 app.listen(port, () => {
   console.log(`PizzaHub server is running on port ${port}`);
