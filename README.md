@@ -4,6 +4,14 @@ Backend API service for **PizzaHub** — an artisanal pizza ordering and deliver
 
 ---
 
+## Repository & Deployment Links
+
+- **Live API URL**: [Insert Live Server URL]
+- **Client Repository**: [Insert Client GitHub URL]
+- **Server Repository**: [Insert Server GitHub URL]
+
+---
+
 ## Tech Stack
 
 - **Runtime**: Node.js (ESM)

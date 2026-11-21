@@ -30,6 +30,29 @@ router.post('/api/orders', async (req, res) => {
       });
     }
 
+    if (pizzaId && ObjectId.isValid(pizzaId)) {
+      const targetPizza = await menuCol.findOne({ _id: new ObjectId(pizzaId) });
+      if (targetPizza && targetPizza.vendorEmail) {
+        if (targetPizza.vendorEmail.toLowerCase() === customerEmail.trim().toLowerCase()) {
+          return res.status(400).json({ error: 'Vendors cannot order their own menu items' });
+        }
+      }
+    }
+
+    const scheduledWindow = deliverySchedule || 'ASAP (25–35 min hearth dispatch)';
+    const activeDuplicate = await ordersCol.findOne({
+      customerEmail: customerEmail.trim().toLowerCase(),
+      pizzaId: pizzaId ? pizzaId.toString() : null,
+      deliverySchedule: scheduledWindow,
+      status: { $in: ['pending', 'preparing', 'on_the_way'] },
+    });
+
+    if (activeDuplicate) {
+      return res.status(400).json({
+        error: 'You already have an active order for this pizza on the selected delivery schedule',
+      });
+    }
+
     const calculatedTotal = totalPrice || (Number(price) || 0) * (Number(quantity) || 1);
 
     const newOrder = {
