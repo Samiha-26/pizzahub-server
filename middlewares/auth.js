@@ -2,7 +2,14 @@ import { createRemoteJWKSet, jwtVerify } from 'jose';
 import 'dotenv/config';
 
 const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:3000';
-const JWKS = createRemoteJWKSet(new URL(`${CLIENT_URL}/api/auth/jwks`));
+let JWKS = null;
+try {
+  JWKS = createRemoteJWKSet(new URL(`${CLIENT_URL}/api/auth/jwks`));
+} catch {}
+
+const SECRET = new TextEncoder().encode(
+  process.env.BETTER_AUTH_SECRET || process.env.JWT_SECRET || 'pizzahub_production_jwt_secret_key_2026'
+);
 
 export async function verifyToken(req, res, next) {
   const authHeader = req.headers.authorization;
@@ -17,7 +24,31 @@ export async function verifyToken(req, res, next) {
   const token = authHeader.split(' ')[1];
 
   try {
-    const { payload } = await jwtVerify(token, JWKS);
+    let payload = null;
+    let verifyError = null;
+
+    if (JWKS) {
+      try {
+        const result = await jwtVerify(token, JWKS);
+        payload = result.payload;
+      } catch (err) {
+        verifyError = err;
+      }
+    }
+
+    if (!payload) {
+      try {
+        const result = await jwtVerify(token, SECRET);
+        payload = result.payload;
+      } catch (err) {
+        verifyError = err;
+      }
+    }
+
+    if (!payload) {
+      throw verifyError || new Error('Token verification failed');
+    }
+
     req.user = payload;
     next();
   } catch (err) {
@@ -27,6 +58,14 @@ export async function verifyToken(req, res, next) {
       details: err.message,
     });
   }
+}
+
+export function optionalToken(req, res, next) {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    return next();
+  }
+  return verifyToken(req, res, next);
 }
 
 export function requireRole(allowedRoles) {

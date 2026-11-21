@@ -108,6 +108,13 @@ router.post('/api/vendor/menu', async (req, res) => {
 
     const email = vendorEmail.trim().toLowerCase();
     const user = await usersCol.findOne({ email: { $regex: new RegExp(`^${email}$`, 'i') } });
+
+    if (user && user.status === 'blocked') {
+      return res.status(403).json({
+        error: 'Your vendor account has been suspended by administration. You cannot publish menu items.',
+      });
+    }
+
     const subscriptionTier = user?.subscriptionTier || 'free';
 
     if (subscriptionTier !== 'premium') {

@@ -1,6 +1,6 @@
 import express from 'express';
 import { ObjectId } from 'mongodb';
-import { ordersCol, menuCol } from '../config/db.js';
+import { ordersCol, menuCol, usersCol } from '../config/db.js';
 
 const router = express.Router();
 
@@ -27,6 +27,15 @@ router.post('/api/orders', async (req, res) => {
     if (!customerEmail || !deliveryAddress) {
       return res.status(400).json({
         error: 'Missing required order details: customerEmail and deliveryAddress are mandatory',
+      });
+    }
+
+    const customerUser = await usersCol.findOne({
+      email: { $regex: new RegExp(`^${customerEmail.trim()}$`, 'i') },
+    });
+    if (customerUser && customerUser.status === 'blocked') {
+      return res.status(403).json({
+        error: 'Your customer account has been suspended by administration. You cannot place orders.',
       });
     }
 

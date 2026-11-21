@@ -15,6 +15,7 @@ import allergensRouter from './routes/allergens.js';
 import couponsRouter from './routes/coupons.js';
 import deliveryZonesRouter from './routes/deliveryZones.js';
 import eventsRouter from './routes/events.js';
+import { verifyToken, optionalToken } from './middlewares/auth.js';
 import { securityHeaders, sanitizeInputs, rateLimiter } from './middleware/security.js';
 import { notFoundHandler, globalErrorHandler } from './middleware/errorHandler.js';
 
@@ -27,6 +28,7 @@ app.use(rateLimiter({ windowMs: 60000, max: 150 }));
 app.use('/api/stripe/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
 app.use(sanitizeInputs);
+app.use(optionalToken);
 
 app.get('/', (req, res) => {
   res.send('PizzaHub server is running!');
@@ -38,6 +40,14 @@ app.get('/health', (req, res) => {
     service: 'pizzahub-backend-api',
     uptime: `${Math.round(process.uptime())}s`,
     timestamp: new Date().toISOString(),
+  });
+});
+
+app.get('/api/auth/verify', verifyToken, (req, res) => {
+  res.json({
+    valid: true,
+    user: req.user,
+    message: 'Access token verified successfully',
   });
 });
 
@@ -59,6 +69,10 @@ app.use(eventsRouter);
 app.use(notFoundHandler);
 app.use(globalErrorHandler);
 
-app.listen(port, () => {
-  console.log(`PizzaHub server is running on port ${port}`);
-});
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`PizzaHub server is running on port ${port}`);
+  });
+}
+
+export default app;
