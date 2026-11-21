@@ -6,6 +6,7 @@ import ordersRouter from './routes/orders.js';
 import vendorRouter from './routes/vendor.js';
 import paymentsRouter from './routes/payments.js';
 import adminRouter from './routes/admin.js';
+import reviewsRouter from './routes/reviews.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -32,6 +33,7 @@ app.use(ordersRouter);
 app.use(vendorRouter);
 app.use(paymentsRouter);
 app.use(adminRouter);
+app.use(reviewsRouter);
 
 app.use((req, res) => {
   res.status(404).json({
