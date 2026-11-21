@@ -13,6 +13,7 @@ import analyticsRouter from './routes/analytics.js';
 import profileRouter from './routes/profile.js';
 import allergensRouter from './routes/allergens.js';
 import couponsRouter from './routes/coupons.js';
+import deliveryZonesRouter from './routes/deliveryZones.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -46,6 +47,7 @@ app.use(analyticsRouter);
 app.use(profileRouter);
 app.use(allergensRouter);
 app.use(couponsRouter);
+app.use(deliveryZonesRouter);
 
 app.use((req, res) => {
   res.status(404).json({
