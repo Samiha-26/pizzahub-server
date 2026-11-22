@@ -58,7 +58,7 @@ router.get('/api/menu/specials', async (req, res) => {
 
 router.get('/api/menu', async (req, res) => {
   try {
-    const { search, category, crust, sort, page = 1, limit = 12 } = req.query;
+    const { search, category, crust, sort, page = 1, limit = 60 } = req.query;
 
     const query = { status: { $in: ['approved', 'active'] } };
 
@@ -73,11 +73,37 @@ router.get('/api/menu', async (req, res) => {
     }
 
     if (category && category !== 'All' && category.trim() !== '') {
-      query.category = new RegExp(`^${category.trim()}$`, 'i');
+      const cleanCat = category.trim();
+      if (/wood/i.test(cleanCat)) {
+        query.category = /wood-fired/i;
+      } else if (/veg/i.test(cleanCat)) {
+        query.category = /vegetarian/i;
+      } else if (/spic/i.test(cleanCat)) {
+        query.category = /spicy/i;
+      } else if (/white/i.test(cleanCat)) {
+        query.category = /white/i;
+      } else if (/classic|italian/i.test(cleanCat)) {
+        query.category = /classic/i;
+      } else {
+        query.category = new RegExp(cleanCat, 'i');
+      }
     }
 
     if (crust && crust !== 'All' && crust.trim() !== '') {
-      query.crust = new RegExp(`^${crust.trim()}$`, 'i');
+      const cleanCrust = crust.trim();
+      if (/neapolitan/i.test(cleanCrust)) {
+        query.crust = /neapolitan/i;
+      } else if (/roman|thin/i.test(cleanCrust)) {
+        query.crust = /roman/i;
+      } else if (/detroit|pan/i.test(cleanCrust)) {
+        query.crust = /detroit/i;
+      } else if (/gluten|cauliflower/i.test(cleanCrust)) {
+        query.crust = /gluten-free|cauliflower/i;
+      } else if (/sourdough|stuffed/i.test(cleanCrust)) {
+        query.crust = /sourdough/i;
+      } else {
+        query.crust = new RegExp(cleanCrust, 'i');
+      }
     }
 
     let sortOptions = { createdAt: -1 };

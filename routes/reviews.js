@@ -92,4 +92,41 @@ router.post('/api/reviews', async (req, res) => {
   }
 });
 
+router.post('/api/reviews/:reviewId/reply', async (req, res) => {
+  try {
+    const { reviewId } = req.params;
+    const { vendorName, vendorEmail, message } = req.body;
+
+    if (!reviewId || !message || !message.trim()) {
+      return res.status(400).json({ error: 'Review ID and reply message are required' });
+    }
+
+    const query = ObjectId.isValid(reviewId) ? { _id: new ObjectId(reviewId) } : { _id: reviewId };
+
+    const replyData = {
+      vendorName: (vendorName || 'Kitchen Pizzaiolo').trim(),
+      vendorEmail: (vendorEmail || '').trim().toLowerCase(),
+      message: message.trim(),
+      createdAt: new Date(),
+    };
+
+    const result = await reviewsCol.updateOne(
+      query,
+      { $set: { reply: replyData, updatedAt: new Date() } }
+    );
+
+    if (result.matchedCount === 0) {
+      return res.status(404).json({ error: 'Review not found' });
+    }
+
+    res.json({
+      success: true,
+      message: 'Kitchen reply posted successfully',
+      reply: replyData,
+    });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to post reply', details: err.message });
+  }
+});
+
 export default router;

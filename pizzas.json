@@ -1,5 +1,6 @@
 [
   {
+    "_id": "6b00a07c3d149978fc82e9cb",
     "name": "Diavola Con 'Nduja",
     "tagline": "Wood-Fired Spicy Artisan",
     "description": "Fiery Calabrian sausage spread, fermented crushed chilies, fresh fior di latte mozzarella, raw wildflower chili honey drizzle, and charred Roman basil.",
@@ -16,8 +17,8 @@
       "IN PREMIUM WOOD-FIRE",
       "TOP RE-ORDERED"
     ],
-    "rating": 4.95,
-    "reviewCount": 342,
+    "rating": 4.7,
+    "reviewCount": 3,
     "ingredients": [
       "San Marzano D.O.P. Tomatoes",
       "Calabrian 'Nduja",
@@ -33,11 +34,12 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-01T10:00:00.000Z",
     "updatedAt": "2026-11-01T10:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9cc",
     "name": "Truffle Porcini Bianco",
     "tagline": "Slow-Cultured White Base",
     "description": "Velvety black summer truffle crema, pan-seared wild porcini mushrooms, creamy taleggio, smoked provolone, and fresh thyme on 48h sourdough base.",
@@ -53,8 +55,8 @@
       "CHEF RECOMMENDED",
       "TRUFFLE HARVEST"
     ],
-    "rating": 4.92,
-    "reviewCount": 218,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Black Summer Truffle Crema",
       "Wild Porcini Mushrooms",
@@ -70,11 +72,12 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
     "createdAt": "2026-11-02T11:00:00.000Z",
     "updatedAt": "2026-11-02T11:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9cd",
     "name": "Margherita D.O.P. di Bufala",
     "tagline": "Authentic Neapolitan Heritage",
     "description": "Certified Campanian buffalo mozzarella, volcanic San Marzano tomatoes, freshly plucked sweet Genovese basil, and cold-pressed extra virgin olive oil.",
@@ -90,8 +93,8 @@
       "IN PREMIUM WOOD-FIRE",
       "HERITAGE GOLD"
     ],
-    "rating": 4.98,
-    "reviewCount": 512,
+    "rating": 4.3,
+    "reviewCount": 3,
     "ingredients": [
       "Campanian Buffalo Mozzarella D.O.P.",
       "San Marzano D.O.P. Tomatoes",
@@ -106,11 +109,12 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-03T12:00:00.000Z",
     "updatedAt": "2026-11-03T12:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9ce",
     "name": "Quattro Formaggi al Miele",
     "tagline": "Aged Italian Cheeses",
     "description": "Gorgonzola piccante, 24-month aged Parmigiano Reggiano, fontina val d'Aosta, and fresh fior di latte drizzled with raw acacia honey and crushed walnuts.",
@@ -125,8 +129,8 @@
       "CHEESE LOVER",
       "SWEET & SAVORY"
     ],
-    "rating": 4.87,
-    "reviewCount": 164,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Gorgonzola Piccante",
       "Parmigiano Reggiano 24M",
@@ -142,11 +146,12 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "North Beach, San Francisco, CA",
+    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
     "createdAt": "2026-11-04T13:00:00.000Z",
     "updatedAt": "2026-11-04T13:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9cf",
     "name": "Smoked Burrata & Prosciutto",
     "tagline": "Hand-Torn Artisanal Deli",
     "description": "20-month aged Prosciutto di Parma laid over whole smoked Pugliese burrata, wild baby arugula, shaved pecorino romano, and balsamic glaze reduction.",
@@ -161,8 +166,8 @@
       "IN PREMIUM WOOD-FIRE",
       "GOURMET SELECTION"
     ],
-    "rating": 4.96,
-    "reviewCount": 290,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Prosciutto di Parma 20M",
       "Whole Smoked Pugliese Burrata",
@@ -178,11 +183,12 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
     "createdAt": "2026-11-05T14:00:00.000Z",
     "updatedAt": "2026-11-05T14:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d0",
     "name": "Fiery Calabrian Salami & Peppers",
     "tagline": "Hearth-Roasted Crispy",
     "description": "Artisan soppressata salami, flame-charred sweet red bell peppers, smoked scamorza, oregano, and chili flakes on fermented dough with garlic crust.",
@@ -197,8 +203,8 @@
       "TOP RE-ORDERED",
       "FIRE CRUNCH"
     ],
-    "rating": 4.89,
-    "reviewCount": 205,
+    "rating": 4.3,
+    "reviewCount": 3,
     "ingredients": [
       "Artisan Soppressata Salami",
       "Roasted Sweet Peppers",
@@ -214,11 +220,12 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "North Beach, San Francisco, CA",
+    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
     "createdAt": "2026-11-06T15:00:00.000Z",
     "updatedAt": "2026-11-06T15:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d1",
     "name": "Ortolana Rustica Garden",
     "tagline": "Hearth-Roasted Veggie Feast",
     "description": "Charred zucchini ribbons, roasted baby artichoke hearts, sun-blushed tomatoes, taggiasca olives, and garlic-infused herb oil on light sourdough base.",
@@ -233,8 +240,8 @@
       "100% PLANT FORWARD",
       "CRISPY GLUTEN-FREE"
     ],
-    "rating": 4.82,
-    "reviewCount": 145,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Grilled Zucchini Ribbons",
       "Roasted Artichoke Hearts",
@@ -250,11 +257,12 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-07T16:00:00.000Z",
     "updatedAt": "2026-11-07T16:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d2",
     "name": "Detroit Motor City Pepperoni Square",
     "tagline": "Crispy Frico Edge Deep Dish",
     "description": "Thick caramelized cheddar edge, double-layered cupping pepperoni loaded with crushed San Marzano stripes and aged Wisconsin brick cheese.",
@@ -269,8 +277,8 @@
       "CRISPY CHEESE CRUST",
       "PEPPERONI OVERLOAD"
     ],
-    "rating": 4.91,
-    "reviewCount": 388,
+    "rating": 4.7,
+    "reviewCount": 3,
     "ingredients": [
       "Cupping Pepperoni Cups",
       "Aged Wisconsin Brick Cheese",
@@ -285,11 +293,12 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
     "createdAt": "2026-11-08T17:00:00.000Z",
     "updatedAt": "2026-11-08T17:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d3",
     "name": "Cacio e Pepe con Pistacchio",
     "tagline": "Roman White Hearth",
     "description": "Creamy Pecorino Romano fonduta, freshly cracked Tellicherry black peppercorns, toasted Bronte pistachios, and buffalo fior di latte.",
@@ -304,8 +313,8 @@
       "ROMAN CLASSIC",
       "PISTACHIO CRUNCH"
     ],
-    "rating": 4.88,
-    "reviewCount": 176,
+    "rating": 4.7,
+    "reviewCount": 3,
     "ingredients": [
       "Pecorino Romano D.O.P.",
       "Tellicherry Black Peppercorns",
@@ -320,11 +329,12 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "North Beach, San Francisco, CA",
+    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
     "createdAt": "2026-11-09T18:00:00.000Z",
     "updatedAt": "2026-11-09T18:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d4",
     "name": "San Daniele & Wild Fig",
     "tagline": "Autumn Orchard Reserve",
     "description": "Silky 24-month aged Prosciutto di San Daniele, sweet caramelized black mission figs, creamy gorgonzola dolce, and aged balsamic glaze reduction.",
@@ -339,8 +349,8 @@
       "SEASONAL SPECIAL",
       "CHEF SIGNATURE"
     ],
-    "rating": 4.97,
-    "reviewCount": 310,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Prosciutto di San Daniele 24M",
       "Caramelized Black Mission Figs",
@@ -355,11 +365,12 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
     "createdAt": "2026-11-10T19:00:00.000Z",
     "updatedAt": "2026-11-10T19:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d5",
     "name": "Calabrian Hot Honey & Soppressata",
     "tagline": "Sweet & Fiery Wood-Fired",
     "description": "Hand-pinched spicy pork soppressata, smoky scamorza cheese, crushed red pepper flakes, fresh basil, and infused wildflower chili clover honey.",
@@ -374,8 +385,8 @@
       "TOP RE-ORDERED",
       "HOT HONEY CRAZE"
     ],
-    "rating": 4.93,
-    "reviewCount": 420,
+    "rating": 4.3,
+    "reviewCount": 3,
     "ingredients": [
       "Artisan Spicy Soppressata",
       "Smoked Scamorza",
@@ -390,11 +401,12 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-11T20:00:00.000Z",
     "updatedAt": "2026-11-11T20:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d6",
     "name": "Capricciosa Tradizionale",
     "tagline": "Four Seasons Roman Stone",
     "description": "Roasted Cremini mushrooms, Gaeta black olives, marinated Italian artichoke hearts, cooked prosciutto cotto, and San Marzano sauce.",
@@ -409,8 +421,8 @@
       "HEARTH CLASSIC",
       "ITALIAN HERITAGE"
     ],
-    "rating": 4.86,
-    "reviewCount": 192,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Prosciutto Cotto",
       "Gaeta Black Olives",
@@ -425,11 +437,12 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "North Beach, San Francisco, CA",
+    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
     "createdAt": "2026-11-12T21:00:00.000Z",
     "updatedAt": "2026-11-12T21:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d7",
     "name": "Wild Forest Funghi & Truffle Cashew",
     "tagline": "Earth & Wood Smoke Plant Feast",
     "description": "Medley of roasted chanterelle, shiitake, and portobello mushrooms, cashew garlic cream, fresh rosemary, and white truffle essence.",
@@ -444,8 +457,8 @@
       "100% PLANT FORWARD",
       "WILD MUSHROOM"
     ],
-    "rating": 4.84,
-    "reviewCount": 153,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Chanterelle & Shiitake Mushrooms",
       "Cashew Garlic Cream",
@@ -460,11 +473,12 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-13T22:00:00.000Z",
     "updatedAt": "2026-11-13T22:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d8",
     "name": "Detroit Spicy Vodka Sausage Pan",
     "tagline": "Crispy Cheese Corner Square",
     "description": "Crispy frico cheese perimeter, artisan fennel sausage crumbles, creamy Calabrian vodka sauce racing stripes, and sweet basil leaves.",
@@ -479,8 +493,8 @@
       "VODKA STRIPES",
       "CRISPY FRICO"
     ],
-    "rating": 4.94,
-    "reviewCount": 367,
+    "rating": 4.3,
+    "reviewCount": 3,
     "ingredients": [
       "Caramelized Brick Cheese Edge",
       "Calabrian Vodka Cream Sauce",
@@ -495,11 +509,12 @@
     "vendorId": "vendor_artisan_02",
     "vendorName": "L'Antica Forneria",
     "vendorEmail": "antica@pizzahub.com",
-    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "vendorAddress": "Banani 11 Gourmet Walk, Dhaka",
     "createdAt": "2026-11-14T23:00:00.000Z",
     "updatedAt": "2026-11-14T23:00:00.000Z"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9d9",
     "name": "Mortadella & Burrata Pistacchio",
     "tagline": "Bologna Deli Specialty",
     "description": "Thinly shaved Bologna Mortadella with whole pistachio nuts, creamy tear-apart Pugliese burrata, house pistachio pesto, and cold lemon zest.",
@@ -514,8 +529,8 @@
       "IN PREMIUM WOOD-FIRE",
       "GOURMET LUXURY"
     ],
-    "rating": 4.99,
-    "reviewCount": 489,
+    "rating": 5,
+    "reviewCount": 3,
     "ingredients": [
       "Bologna Mortadella I.G.P.",
       "Whole Tear-Apart Burrata",
@@ -530,11 +545,13 @@
     "vendorId": "vendor_artisan_03",
     "vendorName": "Pizzeria Napoletana",
     "vendorEmail": "napoletana@pizzahub.com",
-    "vendorAddress": "North Beach, San Francisco, CA",
+    "vendorAddress": "Dhanmondi Lakefront Plaza, Dhaka",
     "createdAt": "2026-11-15T10:00:00.000Z",
-    "updatedAt": "2026-11-15T10:00:00.000Z"
+    "updatedAt": "2026-11-21T14:50:47.185Z",
+    "moderationStatus": "approved"
   },
   {
+    "_id": "6b00a07c3d149978fc82e9da",
     "name": "Diavola Rustica Piccante",
     "tagline": "Calabrian Inferno Crust",
     "description": "Spicy Spianata Calabrese salami, pickled jalapeño coins, chili threads, smoked provolone, and crushed San Marzano tomato sugo.",
@@ -549,8 +566,8 @@
       "FIRE STONE",
       "SPICY KICK"
     ],
-    "rating": 4.88,
-    "reviewCount": 224,
+    "rating": 4.7,
+    "reviewCount": 3,
     "ingredients": [
       "Spianata Calabrese Piccante",
       "Pickled Jalapeño Coins",
@@ -565,8 +582,795 @@
     "vendorId": "vendor_artisan_01",
     "vendorName": "Forno Antico Pizzeria",
     "vendorEmail": "forno@pizzahub.com",
-    "vendorAddress": "Little Italy, Manhattan, NY",
+    "vendorAddress": "Gulshan-2 Culinary Circle, Dhaka",
     "createdAt": "2026-11-16T11:00:00.000Z",
     "updatedAt": "2026-11-16T11:00:00.000Z"
+  },
+  {
+    "_id": "6b012beb382eead284168aa8",
+    "name": "diavola pizza",
+    "tagline": "hot and spicy",
+    "description": "Neapolitan 48h base with artisanal toppings.",
+    "price": 34.67,
+    "crust": "Neapolitan 48h",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "ingredients": [
+      "San Marzano Tomatoes",
+      "Fior di Latte Mozzarella",
+      "Fresh Basil",
+      "EVOO"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 850,
+    "badges": [
+      "ARTISAN SPECIAL"
+    ],
+    "rating": 4.7,
+    "reviewCount": 3,
+    "status": "active",
+    "vendorId": "vendor_1795238891614",
+    "vendorEmail": "ahnaf@gmail.com",
+    "vendorName": "ahnaf",
+    "vendorAddress": "PizzaHub Culinary Hub",
+    "createdAt": "2026-11-21T05:28:11.614Z",
+    "updatedAt": "2026-11-21T05:28:11.614Z"
+  },
+  {
+    "_id": "6b012c8c382eead284168aa9",
+    "name": "chicken pizza",
+    "tagline": "creamy and tangy",
+    "description": "Neapolitan 48h base with artisanal toppings.",
+    "price": 35.53,
+    "crust": "Roman Thin Crust",
+    "category": "White Base",
+    "image": "https://images.unsplash.com/photo-1571066811602-716837d681de?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571066811602-716837d681de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "ingredients": [
+      "San Marzano Tomatoes",
+      "Fior di Latte Mozzarella",
+      "Fresh Basil",
+      "spices",
+      "chicken"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 850,
+    "badges": [
+      "ARTISAN SPECIAL"
+    ],
+    "rating": 5,
+    "reviewCount": 3,
+    "status": "active",
+    "vendorId": "vendor_1795239052149",
+    "vendorEmail": "ahnaf@gmail.com",
+    "vendorName": "ahnaf",
+    "vendorAddress": "PizzaHub Culinary Hub",
+    "createdAt": "2026-11-21T05:30:52.149Z",
+    "updatedAt": "2026-11-21T06:04:29.703Z"
+  },
+  {
+    "_id": "6b027b072f9c7d8dbd010cae",
+    "name": "Hot Soppressata & Wildflower Honey",
+    "tagline": "Sweet & Spicy Brick Oven Artisan",
+    "description": "Dry-cured hot soppressata, crushed San Marzano tomato sauce, fresh buffalo mozzarella, crushed red pepper flakes, and organic wildflower honey infusion.",
+    "price": 19,
+    "crust": "Neapolitan 48h",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "IN PREMIUM WOOD-FIRE",
+      "POPULAR RE-ORDER"
+    ],
+    "rating": 4.88,
+    "reviewCount": 142,
+    "ingredients": [
+      "Hot Soppressata",
+      "San Marzano Tomatoes",
+      "Buffalo Mozzarella",
+      "Wildflower Hot Honey",
+      "Fresh Oregano"
+    ],
+    "prepTimeMinutes": 14,
+    "calories": 890,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010caf",
+    "name": "Pistacchio Mortadella e Stracciatella",
+    "tagline": "Silky White Base Roman Delicacy",
+    "description": "Creamy stracciatella di bufala, thinly sliced IGP Bologna mortadella, roasted Sicilian pistachios, lemon zest, and cold-pressed extra virgin olive oil.",
+    "price": 22.5,
+    "crust": "Roman Thin Crust",
+    "category": "White Base",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "CHEF SIGNATURE",
+      "IMPORT INGREDIENTS"
+    ],
+    "rating": 4.96,
+    "reviewCount": 98,
+    "ingredients": [
+      "Stracciatella Cheese",
+      "Bologna Mortadella IGP",
+      "Bronte Pistachios",
+      "Fresh Lemon Zest",
+      "Extra Virgin Olive Oil"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 940,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010cb0",
+    "name": "San Marzano Marinara Classica",
+    "tagline": "Neapolitan Heritage No-Cheese",
+    "description": "Traditional 18th-century Napoletana pie with double San Marzano DOP reduction, crushed wild oregano, thinly shaved fresh garlic, and basil.",
+    "price": 15.5,
+    "crust": "Neapolitan 48h",
+    "category": "Classic Italian",
+    "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "AUTHENTIC NEAPOLITAN",
+      "HERITAGE RECIPE"
+    ],
+    "rating": 4.82,
+    "reviewCount": 84,
+    "ingredients": [
+      "San Marzano DOP Tomatoes",
+      "Wild Sicilian Oregano",
+      "Fresh Garlic Shavings",
+      "Basil",
+      "Ligurian Olive Oil"
+    ],
+    "prepTimeMinutes": 12,
+    "calories": 680,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010cb1",
+    "name": "Detroit Motor City Double Pepperoni",
+    "tagline": "Crispy Frico Edge Steel Pan",
+    "description": "Crisp Wisconsin brick cheese caramelized around deep steel pan edges, layered cup & char pepperoni, and hot crushed tomato ladled over top.",
+    "price": 21,
+    "crust": "Detroit Pan",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "DETROIT STYLE",
+      "FRICO CHEESE CRUST"
+    ],
+    "rating": 4.91,
+    "reviewCount": 167,
+    "ingredients": [
+      "Wisconsin Brick Cheese",
+      "Natural Casing Pepperoni",
+      "Crushed Plum Tomato Sauce",
+      "Pecorino Romano"
+    ],
+    "prepTimeMinutes": 18,
+    "calories": 1080,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_03",
+    "vendorName": "Pizzeria Napoletana",
+    "vendorEmail": "napoli@pizzahub.com",
+    "vendorAddress": "North Beach, San Francisco, CA",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010cb2",
+    "name": "Calabrian Chili Bomb & Sausage",
+    "tagline": "Intense Hot Pepper Wood-Fired",
+    "description": "House-made spicy fennel sausage, fermented red chili paste, sweet yellow datterini tomatoes, smoked scamorza cheese, and fresh oregano.",
+    "price": 20,
+    "crust": "Roman Thin Crust",
+    "category": "Spicy & Fiery",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "EXTREME HEAT",
+      "HOUSE SAUSAGE"
+    ],
+    "rating": 4.89,
+    "reviewCount": 112,
+    "ingredients": [
+      "Spicy Fennel Sausage",
+      "Calabrian Chili Puree",
+      "Yellow Datterini Tomatoes",
+      "Smoked Scamorza",
+      "Fior di Latte"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 960,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010cb3",
+    "name": "Roasted Artichoke & Black Garlic",
+    "tagline": "Earthy Plant-Forward Artisan",
+    "description": "Charred Roman baby artichoke hearts, fermented black garlic emulsion, aged cashew parmesan, kalamata olives, and baby wild arugula.",
+    "price": 18.5,
+    "crust": "Gluten-Free Cauliflower",
+    "category": "Vegetarian & Plant",
+    "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "GLUTEN-FREE",
+      "PLANT BASED"
+    ],
+    "rating": 4.84,
+    "reviewCount": 76,
+    "ingredients": [
+      "Roman Artichoke Hearts",
+      "Black Garlic Emulsion",
+      "Kalamata Olives",
+      "Cashew Cream",
+      "Wild Arugula"
+    ],
+    "prepTimeMinutes": 16,
+    "calories": 720,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b082f9c7d8dbd010cb4",
+    "name": "Wild Chanterelle & Smoked Scamorza",
+    "tagline": "Woodland Truffled Stuffed Crust",
+    "description": "Hand-picked Oregon chanterelles pan-roasted with shallots, smoked scamorza cheese, ricotta-stuffed sourdough edge, and chopped flat-leaf parsley.",
+    "price": 23,
+    "crust": "Sourdough Stuffed",
+    "category": "White Base",
+    "image": "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "STUFFED CRUST",
+      "WILD MUSHROOMS"
+    ],
+    "rating": 4.94,
+    "reviewCount": 135,
+    "ingredients": [
+      "Wild Chanterelle Mushrooms",
+      "Smoked Scamorza",
+      "Whole Milk Ricotta",
+      "Shallot Butter",
+      "Fresh Parsley"
+    ],
+    "prepTimeMinutes": 17,
+    "calories": 990,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cb5",
+    "name": "Caprese Fresca & Basil Pesto",
+    "tagline": "Sun-Ripened Heirloom Classic",
+    "description": "Slow-roasted tri-color heirloom cherry tomatoes, cold-shredded fresh mozzarella di bufala, Genovese pine nut pesto, and balsamic glaze.",
+    "price": 17.5,
+    "crust": "Neapolitan 48h",
+    "category": "Classic Italian",
+    "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "FRESH SUMMER PIE",
+      "HOUSE PESTO"
+    ],
+    "rating": 4.87,
+    "reviewCount": 92,
+    "ingredients": [
+      "Heirloom Cherry Tomatoes",
+      "Mozzarella di Bufala",
+      "Genovese Basil Pesto",
+      "Aged Balsamic Glaze"
+    ],
+    "prepTimeMinutes": 13,
+    "calories": 780,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_03",
+    "vendorName": "Pizzeria Napoletana",
+    "vendorEmail": "napoli@pizzahub.com",
+    "vendorAddress": "North Beach, San Francisco, CA",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cb6",
+    "name": "Habanero Honey & Smoked Bacon",
+    "tagline": "Sweet Heat Detroit Pan",
+    "description": "Applewood smoked thick-cut bacon, jalapeño rings, fiery habanero blossom honey, sharp Wisconsin cheddar blend, and deep crisp pan crust.",
+    "price": 21.5,
+    "crust": "Detroit Pan",
+    "category": "Spicy & Fiery",
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "SMOKED BACON",
+      "HABANERO CRUST"
+    ],
+    "rating": 4.9,
+    "reviewCount": 154,
+    "ingredients": [
+      "Applewood Smoked Bacon",
+      "Habanero Honey",
+      "Pickled Jalapeños",
+      "Wisconsin Brick Cheese",
+      "Chives"
+    ],
+    "prepTimeMinutes": 18,
+    "calories": 1040,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_03",
+    "vendorName": "Pizzeria Napoletana",
+    "vendorEmail": "napoli@pizzahub.com",
+    "vendorAddress": "North Beach, San Francisco, CA",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cb7",
+    "name": "Garden Primavera & Zucchini Blossom",
+    "tagline": "Farmers Market Seasonal Pie",
+    "description": "Delicate hand-picked squash blossoms, shaved green & yellow zucchini, ricotta salata, lemon-infused olive oil, and mint leaves.",
+    "price": 19,
+    "crust": "Roman Thin Crust",
+    "category": "Vegetarian & Plant",
+    "image": "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "SEASONAL HARVEST",
+      "VEGETARIAN"
+    ],
+    "rating": 4.86,
+    "reviewCount": 88,
+    "ingredients": [
+      "Zucchini Blossoms",
+      "Shaved Yellow Squash",
+      "Ricotta Salata",
+      "Fior di Latte",
+      "Fresh Mint"
+    ],
+    "prepTimeMinutes": 14,
+    "calories": 760,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cb8",
+    "name": "Prosciutto Cotto & Brown Butter Sage",
+    "tagline": "Velvety Roasted Italian Ham",
+    "description": "Artisanal rosemary-infused prosciutto cotto, nutty brown butter sage glaze, melted taleggio, fontina, and toasted pine nuts on thin crust.",
+    "price": 19.5,
+    "crust": "Neapolitan 48h",
+    "category": "Classic Italian",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "ROSEMARY HAM",
+      "BROWN BUTTER"
+    ],
+    "rating": 4.89,
+    "reviewCount": 110,
+    "ingredients": [
+      "Prosciutto Cotto Rosemary Ham",
+      "Brown Butter",
+      "Fresh Sage",
+      "Taleggio",
+      "Toasted Pine Nuts"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 910,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cb9",
+    "name": "Detroit Vodka Sauce Crispy Crust",
+    "tagline": "Creamy Pink Vodka Reduction Pan",
+    "description": "Slow-simmered Calabrian chili vodka cream sauce, charred frico cheese edges, crumbled hot Italian sausage, and fresh torn stracciatella.",
+    "price": 20.5,
+    "crust": "Detroit Pan",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "VODKA CREAM SAUCE",
+      "CRISPY FRICO EDGE"
+    ],
+    "rating": 4.93,
+    "reviewCount": 178,
+    "ingredients": [
+      "Calabrian Vodka Cream Sauce",
+      "Wisconsin Brick Cheese",
+      "Sweet Italian Sausage",
+      "Fresh Stracciatella"
+    ],
+    "prepTimeMinutes": 18,
+    "calories": 1020,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_03",
+    "vendorName": "Pizzeria Napoletana",
+    "vendorEmail": "napoli@pizzahub.com",
+    "vendorAddress": "North Beach, San Francisco, CA",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b092f9c7d8dbd010cba",
+    "name": "Slow-Roasted Pork Belly & Fennel",
+    "tagline": "Porchetta Style Wood-Fired Sourdough",
+    "description": "Crispy crackling porchetta pork belly shavings, roasted wild fennel bulbs, salsa verde herb drizzle, and fontina cheese on stuffed crust.",
+    "price": 23.5,
+    "crust": "Sourdough Stuffed",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "PORCHETTA BELLY",
+      "STUFFED SOURDOUGH"
+    ],
+    "rating": 4.97,
+    "reviewCount": 165,
+    "ingredients": [
+      "Crisp Porchetta Pork Belly",
+      "Roasted Fennel",
+      "Salsa Verde",
+      "Fontina Cheese",
+      "Sourdough Stuffed Edge"
+    ],
+    "prepTimeMinutes": 17,
+    "calories": 1060,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cbb",
+    "name": "Gorgonzola Dolce & Caramelized Shallots",
+    "tagline": "Sweet Savory Northern Italian",
+    "description": "Creamy Gorgonzola Dolce DOP, slow-caramelized sweet balsamic shallots, fior di latte, toasted walnuts, and baby watercress.",
+    "price": 20,
+    "crust": "Roman Thin Crust",
+    "category": "White Base",
+    "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "GORGONZOLA DOP",
+      "SWEET SHALLOTS"
+    ],
+    "rating": 4.88,
+    "reviewCount": 94,
+    "ingredients": [
+      "Gorgonzola Dolce DOP",
+      "Caramelized Balsamic Shallots",
+      "Fior di Latte",
+      "Toasted Walnuts",
+      "Watercress"
+    ],
+    "prepTimeMinutes": 15,
+    "calories": 880,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cbc",
+    "name": "Ghost Pepper Arrabiata",
+    "tagline": "Extreme Fiery Naples Furnace",
+    "description": "Fermented ghost pepper infused tomato marinara, hot cacciatore salami, grilled sweet cubanelle peppers, fresh mozzarella, and pecorino romano.",
+    "price": 19.5,
+    "crust": "Neapolitan 48h",
+    "category": "Spicy & Fiery",
+    "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "VOLCANIC SPICE",
+      "HOT CACCIATORE"
+    ],
+    "rating": 4.85,
+    "reviewCount": 122,
+    "ingredients": [
+      "Ghost Pepper Marinara",
+      "Cacciatore Salami",
+      "Cubanelle Peppers",
+      "Fresh Mozzarella",
+      "Pecorino Romano"
+    ],
+    "prepTimeMinutes": 14,
+    "calories": 910,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cbd",
+    "name": "Vegan Wild Truffle & Cashew Ricotta",
+    "tagline": "Artisanal Plant-Based Gourmet",
+    "description": "House-cultured lemon cashew ricotta, pan-fried maitake & shiitake mushrooms, cold-pressed white truffle oil, and crispy sage on cauliflower crust.",
+    "price": 22,
+    "crust": "Gluten-Free Cauliflower",
+    "category": "Vegetarian & Plant",
+    "image": "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "100% VEGAN",
+      "GLUTEN-FREE GOURMET"
+    ],
+    "rating": 4.91,
+    "reviewCount": 104,
+    "ingredients": [
+      "Cultured Cashew Ricotta",
+      "Maitake Mushrooms",
+      "Shiitake Mushrooms",
+      "White Truffle Oil",
+      "Cauliflower Crust"
+    ],
+    "prepTimeMinutes": 16,
+    "calories": 690,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cbe",
+    "name": "Bresaola Della Valtellina & Grana",
+    "tagline": "Alpine Cured Beef & Shaved Reggiano",
+    "description": "Thinly sliced cured Alpine beef bresaola, mountain butter base, 30-month Grana Padano shavings, wild baby arugula, and lemon vinaigrette.",
+    "price": 22,
+    "crust": "Roman Thin Crust",
+    "category": "Classic Italian",
+    "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "ALPINE BEEF",
+      "AGED GRANA PADANO"
+    ],
+    "rating": 4.93,
+    "reviewCount": 86,
+    "ingredients": [
+      "Bresaola Della Valtellina",
+      "Grana Padano 30-month",
+      "Fior di Latte",
+      "Wild Arugula",
+      "Lemon Vinaigrette"
+    ],
+    "prepTimeMinutes": 13,
+    "calories": 820,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_03",
+    "vendorName": "Pizzeria Napoletana",
+    "vendorEmail": "napoli@pizzahub.com",
+    "vendorAddress": "North Beach, San Francisco, CA",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cbf",
+    "name": "Spicy Fennel Salame & Roasted Pepper",
+    "tagline": "Smoky Fire-Kissed Rustic Pie",
+    "description": "Thin-sliced spicy fennel salame, fire-roasted sweet red bell peppers, smoked provola cheese, San Marzano sauce, and basil on 48h dough.",
+    "price": 18.5,
+    "crust": "Neapolitan 48h",
+    "category": "Spicy & Fiery",
+    "image": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "WOOD-SMOKED",
+      "FENNEL SALAME"
+    ],
+    "rating": 4.87,
+    "reviewCount": 95,
+    "ingredients": [
+      "Spicy Fennel Salame",
+      "Fire-Roasted Red Peppers",
+      "Smoked Provola",
+      "San Marzano Sauce",
+      "Genovese Basil"
+    ],
+    "prepTimeMinutes": 14,
+    "calories": 890,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0a2f9c7d8dbd010cc0",
+    "name": "Golden Chanterelle & Crispy Leek",
+    "tagline": "Buttery Sourdough Forest Feast",
+    "description": "Pan-browned golden chanterelle mushrooms, crispy frizzled leeks, white truffle cream, taleggio, and fresh marjoram on sourdough stuffed crust.",
+    "price": 21,
+    "crust": "Sourdough Stuffed",
+    "category": "Vegetarian & Plant",
+    "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "CRISPY LEEK",
+      "WILD CHANTERELLE"
+    ],
+    "rating": 4.9,
+    "reviewCount": 114,
+    "ingredients": [
+      "Golden Chanterelles",
+      "Frizzled Leeks",
+      "White Truffle Cream",
+      "Taleggio Cheese",
+      "Fresh Marjoram"
+    ],
+    "prepTimeMinutes": 16,
+    "calories": 930,
+    "isFeatured": false,
+    "status": "approved",
+    "vendorId": "vendor_artisan_02",
+    "vendorName": "L'Antica Forneria",
+    "vendorEmail": "antica@pizzahub.com",
+    "vendorAddress": "Williamsburg, Brooklyn, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
+  },
+  {
+    "_id": "6b027b0b2f9c7d8dbd010cc1",
+    "name": "Speck Alto Adige & Smoked Mozzarella",
+    "tagline": "Tyrolean Juniper Smoked Masterpiece",
+    "description": "Smoked mountain speck from South Tyrol, charred sweet corn reduction, smoked mozzarella di bufala, fresh rosemary needle infusion, and olive oil.",
+    "price": 21.5,
+    "crust": "Neapolitan 48h",
+    "category": "Wood-Fired",
+    "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "badges": [
+      "TYROLEAN SPECK",
+      "IN PREMIUM WOOD-FIRE"
+    ],
+    "rating": 4.95,
+    "reviewCount": 153,
+    "ingredients": [
+      "Speck Alto Adige IGP",
+      "Smoked Mozzarella",
+      "Sweet Corn Reduction",
+      "Fresh Rosemary",
+      "Cold-Pressed Olive Oil"
+    ],
+    "prepTimeMinutes": 14,
+    "calories": 950,
+    "isFeatured": true,
+    "status": "approved",
+    "vendorId": "vendor_artisan_01",
+    "vendorName": "Forno Antico Pizzeria",
+    "vendorEmail": "forno@pizzahub.com",
+    "vendorAddress": "Little Italy, Manhattan, NY",
+    "createdAt": "2026-11-20T10:00:00.000Z",
+    "updatedAt": "2026-11-20T10:00:00.000Z"
   }
 ]
