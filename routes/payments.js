@@ -190,6 +190,44 @@ router.post('/api/vendor/verify-session', async (req, res) => {
   }
 });
 
+router.post('/api/vendor/unsubscribe', async (req, res) => {
+  try {
+    const { vendorEmail } = req.body;
+    if (!vendorEmail) {
+      return res.status(400).json({ error: 'Vendor email is required' });
+    }
+
+    const email = vendorEmail.trim().toLowerCase();
+    const escaped = email.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    await usersCol.updateOne(
+      { email: { $regex: new RegExp(`^${escaped}$`, 'i') } },
+      { $set: { subscriptionTier: 'free', updatedAt: new Date() } }
+    );
+
+    await paymentsCol.insertOne({
+      vendorEmail: email,
+      amount: 0,
+      currency: 'usd',
+      tier: 'free',
+      status: 'unsubscribed',
+      type: 'downgrade',
+      createdAt: new Date(),
+    });
+
+    res.json({
+      success: true,
+      message: 'Successfully downgraded to Free Artisan Tier',
+      subscriptionTier: 'free',
+    });
+  } catch (err) {
+    res.status(500).json({
+      error: 'Failed to process unsubscribe request',
+      details: err.message,
+    });
+  }
+});
+
 router.get('/api/admin/transactions', async (req, res) => {
   try {
     const transactions = await paymentsCol.find({}).sort({ createdAt: -1 }).toArray();
